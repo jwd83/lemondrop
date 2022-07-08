@@ -1,8 +1,9 @@
 # Lemon Drop
 ## A first fresh project
 
-Documentation at: +https://fresh.deno.dev/
-Package at: +https://deno.land/x/lemon_drop/
+Documentation at: https://fresh.deno.dev/
+
+Package at: https://deno.land/x/lemon_drop/
 
 ### Usage
 
