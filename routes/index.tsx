@@ -7,11 +7,13 @@ export default function Home() {
   return (
     <div style="text-align: center;">
       <title>Lemon Drop</title>
-      <img
-        src="/logo.svg"
-        height="100px"
-        alt="the fresh logo: a sliced lemon dripping with juice"
-      />
+      <a href="https://fresh.deno.dev/docs/introduction">
+        <img
+          src="/logo.svg"
+          height="100px"
+          alt="the fresh logo: a sliced lemon dripping with juice"
+        />
+      </a>
       <p>
         <h1>Lemon Drop</h1>
         <h2>Dropping the 🎤 on calories</h2>
@@ -35,7 +37,9 @@ export default function Home() {
           <br />
 
           <input type="text" name="calories" placeholder="" />
-          <label> <abbr>calories</abbr>.</label>
+          <label>
+            <abbr>calories</abbr>.
+          </label>
           <br />
           <input type="checkbox" name="extra" style="margin-top: 3em;" />
           Advanced
