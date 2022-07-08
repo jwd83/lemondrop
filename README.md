@@ -1,4 +1,7 @@
-# fresh project
+# Lemon Drop
+## A first fresh project
+
+https://deno.land/x/fresh@1.0.1
 
 ### Usage
 
