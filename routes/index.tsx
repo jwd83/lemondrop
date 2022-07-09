@@ -6,7 +6,10 @@ import MealItem from "../islands/MealItem.tsx";
 export default function Home() {
   return (
     <div style="text-align: center;">
-      <title>Lemon Drop</title>
+      <head>
+        <title>Lemon Drop</title>
+        <link rel="stylesheet" href="/style.css" />
+      </head>
       <a href="https://fresh.deno.dev/docs/introduction">
         <img
           src="/logo.svg"
