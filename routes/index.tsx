@@ -30,14 +30,14 @@ export default function Home() {
             placeholder="1"
             style="width: 3em;"
           />{" "}
-          x
-          <input type="text" name="name" placeholder="Apple" /> (s) <br />
+          x <input type="text" name="name" placeholder="Apple" /> (s) <br />
 
           <label>that contained...</label>
           <br />
 
           <input type="text" name="calories" placeholder="" />
           <label>
+            {" "}
             <abbr>calories</abbr>.
           </label>
           <br />
