@@ -1,6 +1,7 @@
 /** @jsx h */
 import { h } from "preact";
 import MealItem from "../islands/MealItem.tsx";
+import Total from "../islands/Total.tsx";
 
 export default function Home() {
   return (
@@ -89,10 +90,8 @@ export default function Home() {
           unit="g"
           quantity={1}
         />
-        <hr />
-        <p style="text-align:right;">
-          278 kCals
-        </p>
+        
+        <Total calories={278} />
       </div>
     </div>
   );
