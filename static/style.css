@@ -11,6 +11,8 @@ h1 {
     font-size: 3em;
     margin: 0;
     padding: 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 form {
@@ -45,4 +47,9 @@ button:hover {
 #qty {
     width: 50px;
     text-align: center;
+}
+
+#logo {
+    vertical-align: middle;
+    padding-right: 30px;
 }

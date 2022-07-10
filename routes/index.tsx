@@ -11,13 +11,16 @@ export default function Home() {
       </head>
       <a href="https://fresh.deno.dev/docs/introduction">
         <img
+          id="logo"
           src="/logo.svg"
           height="100px"
           alt="the fresh logo: a sliced lemon dripping with juice"
         />
       </a>
+      <h1>
+        Lemon Drop
+      </h1>
       <p>
-        <h1>Lemon Drop</h1>
         <h2>Dropping the 🎤 on calories</h2>
       </p>
       <div>
