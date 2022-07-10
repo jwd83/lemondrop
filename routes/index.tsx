@@ -30,17 +30,29 @@ export default function Home() {
           <br />
 
           <input
-            id="qty"
-            type="text"
+            class="input-number"
+            type="number"
             name="quantity"
             placeholder="1"
           />{" "}
-          x <input type="text" name="name" placeholder="Apple" /> (s) <br />
+          x{" "}
+          <input
+            class="input-text"
+            type="text"
+            name="name"
+            placeholder="Apple"
+          />{" "}
+          (s) <br />
 
-          <label>that contained...</label>
+          <label>that totaled...</label>
           <br />
 
-          <input type="text" name="calories" placeholder="" />
+          <input
+            class="input-number"
+            type="text"
+            name="calories"
+            placeholder=""
+          />
           <label>
             {" "}
             <abbr>calories</abbr>.
@@ -79,7 +91,7 @@ export default function Home() {
         />
         <hr />
         <p style="text-align:right;">
-          183 kCals
+          278 kCals
         </p>
       </div>
     </div>

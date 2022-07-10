@@ -31,6 +31,19 @@ button:hover {
     box-shadow: 0px 0px 10px orange;
 }
 
+.input-number {
+    width: 50px;
+    text-align: center;
+    border: 10px solid #ccc;
+    border-radius: 15px;
+}
+
+.input-text {
+    width: 200px;
+    border: 10px solid #ccc;
+    border-radius: 15px;
+}
+
 .section-block {
     background-color: #333;
     border-radius: 25px;
@@ -44,11 +57,6 @@ button:hover {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-#qty {
-    width: 50px;
-    text-align: center;
 }
 
 #logo {
