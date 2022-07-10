@@ -24,7 +24,7 @@ export default function Home() {
         <h2>Dropping the 🎤 on calories</h2>
       </p>
       <div>
-        <form style="line-height: 2em;">
+        <form class="section-block">
           <h2>Give Me Fuel ⛽</h2>
           <label>I ate...</label>
           <br />
@@ -46,34 +46,42 @@ export default function Home() {
             <abbr>calories</abbr>.
           </label>
           <br />
-          <input type="checkbox" name="extra" style="margin-top: 3em;" />
+          <br />
+          <input type="checkbox" name="extra" />
           Advanced
           <br />
-          <button style="margin-top: 3em;">Give Me Fire 🔥</button>
+          <br />
+          <button>Give Me Fire 🔥</button>
         </form>
       </div>
-      <h2>Meal History</h2>
-      <MealItem
-        name="🍎 Apple"
-        calories={95}
-        value={182}
-        unit="g"
-        quantity={1}
-      />
-      <MealItem
-        name="🍌 Banana"
-        calories={105}
-        value={118}
-        unit="g"
-        quantity={1}
-      />
-      <MealItem
-        name="🥚 Boiled Egg"
-        calories={78}
-        value={50}
-        unit="g"
-        quantity={1}
-      />
+      <div class="section-block">
+        <h2>Meal History</h2>
+        <MealItem
+          name="🍎 Apple"
+          calories={95}
+          value={182}
+          unit="g"
+          quantity={1}
+        />
+        <MealItem
+          name="🍌 Banana"
+          calories={105}
+          value={118}
+          unit="g"
+          quantity={1}
+        />
+        <MealItem
+          name="🥚 Boiled Egg"
+          calories={78}
+          value={50}
+          unit="g"
+          quantity={1}
+        />
+        <hr />
+        <p style="text-align:right;">
+          183 kCals
+        </p>
+      </div>
     </div>
   );
 }
