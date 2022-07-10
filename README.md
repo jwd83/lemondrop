@@ -17,3 +17,15 @@ deno task start
 This will watch the project directory and restart as necessary.
 
 # Calorie notes
+
+# Using the DigitalOcean PostgreSQL database
+
+https://medium.com/deno-the-complete-reference3-ways-of-accepting-self-signed-certificates-in-deno-9c9286ab957
+
+Using DigitalOcean's CA Cert the following modification
+was needed to accept self-signed certificates. Modify the
+deno.json file's start task to include the following
+command line arguments:
+
+ --unstable --cert ./ca-certificate.crt
+
