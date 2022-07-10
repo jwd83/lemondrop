@@ -23,10 +23,10 @@ export default function MealItem(props: MealItemProps) {
 
   return (
     <div style="max-width: 600px; text-align:left; margin: auto; line-height: 1.8em;">
-        {quantity}x {name}{" "}
-        <em style="font-size: 0.8em;">({totalUnits} {unit})</em>
+      {quantity}x {name}{" "}
+      <em style="font-size: 0.8em;">({totalUnits} {unit})</em>
 
-        <span style="float: right;">{totalCalories} kCals</span>
+      <span style="float: right;">{totalCalories} kCals</span>
     </div>
   );
 }

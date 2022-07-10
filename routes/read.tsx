@@ -15,7 +15,7 @@ export default function Greet() {
   return (
     <div>
       <h1>Hello World</h1>
-      <h2>{Deno.env.get("PGUSER")}</h2>
+      <h2>{}</h2>
     </div>
   );
 }
