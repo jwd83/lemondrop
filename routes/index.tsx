@@ -21,8 +21,8 @@ export default function Home() {
         <h2>Dropping the 🎤 on calories</h2>
       </p>
       <div>
-        <h2>Give Me Fuel ⛽</h2>
         <form style="line-height: 2em;">
+          <h2>Give Me Fuel ⛽</h2>
           <label>I ate...</label>
           <br />
 

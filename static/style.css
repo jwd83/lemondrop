@@ -6,6 +6,13 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    text-shadow: 0 0 3px yellow;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
 form {
     padding-top: 20px;
     margin-left: auto;
