@@ -98,7 +98,7 @@ export default function Home() {
         />
 
         <Total calories={278} />
-        <Counter start={0} />
+        {/* <Counter start={0} /> */}
       </section>
     </div>
   );
