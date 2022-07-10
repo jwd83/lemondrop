@@ -1,5 +1,7 @@
 /** @jsx h */
 import { h } from "preact";
+import Account from "../islands/Account.tsx";
+import Counter from "../islands/Counter.tsx";
 import MealItem from "../islands/MealItem.tsx";
 import Total from "../islands/Total.tsx";
 
@@ -24,6 +26,7 @@ export default function Home() {
       <p>
         <h2>Dropping the 🎤 on calories</h2>
       </p>
+      <Account />
       <section>
         <form>
           <h2>Give Me Fuel ⛽</h2>
@@ -95,6 +98,7 @@ export default function Home() {
         />
 
         <Total calories={278} />
+        <Counter start={0} />
       </section>
     </div>
   );
