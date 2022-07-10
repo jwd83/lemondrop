@@ -1,6 +1,5 @@
 /** @jsx h */
 import { h } from "preact";
-import Counter from "../islands/Counter.tsx";
 import MealItem from "../islands/MealItem.tsx";
 
 export default function Home() {
@@ -72,8 +71,6 @@ export default function Home() {
         unit="g"
         quantity={1}
       />
-
-      {/* <Counter start={3} /> */}
     </div>
   );
 }
