@@ -27,10 +27,10 @@ export default function Home() {
           <br />
 
           <input
+            id="qty"
             type="text"
             name="quantity"
             placeholder="1"
-            style="width: 3em;"
           />{" "}
           x <input type="text" name="name" placeholder="Apple" /> (s) <br />
 

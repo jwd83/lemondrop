@@ -1,5 +1,8 @@
 /** @jsx h */
 import { h } from "preact";
+import postgres from 'https://deno.land/x/postgresjs/mod.js'
+
+
 
 export default function Greet() {
   return (

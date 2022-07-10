@@ -5,3 +5,30 @@ html {
     color: #ccc;
     font-family: 'Open Sans', sans-serif;
 }
+
+form {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    max-width: 600px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #ccc;
+    border-radius: 25px;
+    border: none;
+    color: #222;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#qty {
+    width: 50px;
+    text-align: center;
+}
