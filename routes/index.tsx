@@ -24,8 +24,8 @@ export default function Home() {
       <p>
         <h2>Dropping the 🎤 on calories</h2>
       </p>
-      <div>
-        <form class="section-block">
+      <section>
+        <form>
           <h2>Give Me Fuel ⛽</h2>
           <label>I ate...</label>
           <br />
@@ -35,6 +35,8 @@ export default function Home() {
             type="number"
             name="quantity"
             placeholder="1"
+            value="1"
+            min="1"
           />{" "}
           x{" "}
           <input
@@ -50,9 +52,10 @@ export default function Home() {
 
           <input
             class="input-number"
-            type="text"
+            type="number"
             name="calories"
             placeholder=""
+            min="0"
           />
           <label>
             {" "}
@@ -66,8 +69,8 @@ export default function Home() {
           <br />
           <button>Give Me Fire 🔥</button>
         </form>
-      </div>
-      <div class="section-block">
+      </section>
+      <section>
         <h2>Meal History</h2>
         <MealItem
           name="🍎 Apple"
@@ -90,9 +93,9 @@ export default function Home() {
           unit="g"
           quantity={1}
         />
-        
+
         <Total calories={278} />
-      </div>
+      </section>
     </div>
   );
 }
