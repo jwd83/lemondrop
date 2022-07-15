@@ -13,7 +13,7 @@ export default function Account() {
     accNum.push(Math.floor(Math.random() * 10));
   }
   //   accNum.join("");
-  let accNumStr = accNum.join("");
+  const accNumStr = accNum.join("");
 
   return (
     <div id="account">
@@ -30,7 +30,7 @@ export default function Account() {
           name="user"
           id="user"
           value={accNumStr}
-          maxlength="16"
+          maxLength={16}
         />
         {/* <input type="submit" value="Go!"></input> */}
         <button>♻️</button>
