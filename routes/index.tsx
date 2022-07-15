@@ -11,9 +11,8 @@ export default function Home() {
     <div>
       <Header />
       <SignUp />
-      <FuelForm />
       <section>
-        <h2>Meal History</h2>
+        <h2>Sample Meal History</h2>
         <MealItem
           name="🍎 Apple"
           calories={95}

@@ -2,7 +2,7 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/[token].tsx";
+import * as $0 from "./routes/[account].tsx";
 import * as $1 from "./routes/api/joke.ts";
 import * as $2 from "./routes/index.tsx";
 import * as $3 from "./routes/read.tsx";
@@ -16,7 +16,7 @@ import * as $$6 from "./islands/Total.tsx";
 
 const manifest = {
   routes: {
-    "./routes/[token].tsx": $0,
+    "./routes/[account].tsx": $0,
     "./routes/api/joke.ts": $1,
     "./routes/index.tsx": $2,
     "./routes/read.tsx": $3,

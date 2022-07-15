@@ -110,5 +110,18 @@ section {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
+}
+
+#account-statement {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: #111;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 
 }
